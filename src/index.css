@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom tweaks */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply antialiased;
+}
+
+/* optional: subtle card scale on hover */
+.transition { transition: all 0.18s ease-in-out; }
+.scale-102 { transform: scale(1.02); }
